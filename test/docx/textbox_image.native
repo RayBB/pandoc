@@ -1,4 +1,14 @@
-[ Para [ Str "Before" , Space , Str "textbox" , Space , Str "image:" ]
-, Para [ Str "Image" , Space , Str "in" , Space , Str "textbox" ]
-, Para [ Image ("",[],[("width","1.7520866141732282in"),("height","2.5998357393700786in")]) [] ("media/image4.jpeg","") ]
+[ Para
+    [ Image
+        ( ""
+        , []
+        , [ ( "width" , "4.544461942257218in" )
+          , ( "height" , "2.9166666666666665in" )
+          ]
+        )
+        []
+        ( "media/image1.png" , "" )
+    ]
+, Para []
+, Para [ Str "The" , Space , Str "image" , Space , Str "is" , Space , Str "above." ]
 ]
